@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        
+        <ImageView
+            android:id="@+id/imagem"
+            android:src="@drawable/descomplica_logo"
+            android:contentDescription="@null"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="Nome do Curso"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_alignBottom="@+id/imagem"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp" />
+
+        <TextView
+            android:id="@+id/periodo"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_below="@+id/nome"
+            android:text="10 períodos"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/descricao"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_below="@id/periodo"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Descrição do curso" />
+    </RelativeLayout>
+</ScrollView>

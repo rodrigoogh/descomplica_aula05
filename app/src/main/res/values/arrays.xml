@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursos">
+        <item>Administração</item>
+        <item>Bacharelado em Sistemas de Informação</item>
+        <item>Recursos Humanos</item>
+        <item>Pedagogia</item>
+        <item>Ciências Contábeis</item>
+    </string-array>
+
+    <string-array name="periodos">
+        <item>04 anos</item>
+        <item>03 anos</item>
+        <item>02 anos</item>
+        <item>04 anos</item>
+        <item>04 anos</item>
+    </string-array>
+
+    <string-array name="descricoes">
+        <item>O curso de Administração vai te transformar em um profissional que sabe tudo sobre como administrar. Vem aprender sobre como liderar empresas, projetos e até mesmo pessoas.</item>
+        <item>O curso Bacharelado em Sistemas de Informação vai te transformar em um profissional capacitado com os poderes da Tecnologia da Informação.</item>
+        <item>O tecnólogo de Recursos Humanos vai te transformar em um profissional que sabe tudo sobre como recrutar e desenvolver pessoas em uma empresa. Vem aprender sobre como fazer todo esse processo, organizar novos projetos e a contratar pessoas certas.</item>
+        <item>O curso de pedagogia da Faculdade Descomplica vai te transformar em um profissional que sabe tudo sobre os processos de aprendizagem, sobre Educação Digital e sobre a Base Nacional Comum Curricular.</item>
+        <item>A Graduação Online em Ciências Contábeis te prepara para ser o profissional para o mercado de trabalho empreendedor do futuro, que cada vez mais precisa do profissional de contabilidade. Aqui, você aprende com aulas que mandam a real do dia a dia de trabalho de um contador.</item>
+    </string-array>
+</resources>
